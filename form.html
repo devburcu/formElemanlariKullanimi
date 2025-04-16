@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend style="color: red;">Bilgilerinizi Giriniz:</legend><br>
+            <div>
+                <label for="name">İsim:</label>
+                <input type="text" id="name">
+            </div><br>
+            <div>
+                <label for="surname">Soyisim:</label>
+                <input type="text" id="surname">
+            </div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div><br>
+            <div>
+                <label for="password">Şifre:</label>
+                <input type="password" id="password">
+            </div><br>
+            <div>
+                <label for="gender">Cinsiyet:</label>
+                <input type="radio" name="gender" value="male">Erkek
+                <input type="radio" name="gender" value="female">Kadın
+            </div><br>
+            <div>
+                <label for="favorite_fruit">Favori Meyve:</label>
+                <select id="favorite_fruit">
+                    <option value="">Seçiniz...</option>
+                    <option value="apple">Elma</option>
+                    <option value="banana">Muz</option>
+                    <option value="strawberry">Çilek</option>
+                    <option value="watermelon">Karpuz</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="message"></label>
+                <textarea id="message" rows="8px" cols="40px" placeholder="Bir mesaj yazınız..."></textarea>
+            </div><br>
+            <div>
+                <button type="submit">Gönder</button>
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
