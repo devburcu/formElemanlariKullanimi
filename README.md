@@ -1,6 +1,6 @@
 # HTML Kullanıcı Bilgi Formu 
 
-##### Bu projede HTMl ile input, select, textarea vb. elemanlarının kullanımını gösteren basit bir form oluşturulmuştur.
+##### Bu projede HTML ile input, select, textarea vb. elemanlarının kullanımını gösteren basit bir form oluşturulmuştur.
 
 ## Form içeriği
 

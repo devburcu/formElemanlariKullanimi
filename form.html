@@ -9,27 +9,33 @@
     <form>
         <fieldset>
             <legend style="color: red;">Bilgilerinizi Giriniz:</legend><br>
+            <!-- Name Input  -->
             <div>
                 <label for="name">İsim:</label>
                 <input type="text" id="name">
             </div><br>
+            <!-- Surname Input  -->
             <div>
                 <label for="surname">Soyisim:</label>
                 <input type="text" id="surname">
             </div><br>
+            <!-- Email Input  -->
             <div>
                 <label for="email">Email:</label>
                 <input type="email" id="email">
             </div><br>
+            <!-- Password Input  -->
             <div>
                 <label for="password">Şifre:</label>
                 <input type="password" id="password">
             </div><br>
+            <!-- Radio ile cinsiyet seçimi  -->
             <div>
                 <label for="gender">Cinsiyet:</label>
                 <input type="radio" name="gender" value="male">Erkek
                 <input type="radio" name="gender" value="female">Kadın
             </div><br>
+            <!-- Select, option ile meyve seçtimi  -->
             <div>
                 <label for="favorite_fruit">Favori Meyve:</label>
                 <select id="favorite_fruit">
@@ -40,10 +46,12 @@
                     <option value="watermelon">Karpuz</option>
                 </select>
             </div><br>
+            <!-- Textarea ile kullanıcıya mesaj yazdırma  -->
             <div>
                 <label for="message"></label>
                 <textarea id="message" rows="8px" cols="40px" placeholder="Bir mesaj yazınız..."></textarea>
             </div><br>
+            <!-- Gönder Butonu  -->
             <div>
                 <button type="submit">Gönder</button>
             </div>
